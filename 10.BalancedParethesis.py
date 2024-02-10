@@ -21,25 +21,22 @@
 
 # Constraints
 # 1 <= N <= 100000
-def Balancedparenthesis(s):
+def f(s):
     st=[]
-    if len(s)%2==1:
-        return False
-    for i in s:
-        if i=='(' or i=='{' or i=='[':
-            st.append(i)
-        elif i==')':
-            while st and ((st[-1]!='(' and i==')') or (st[-1]=='{' and i=='}') or (st[-1]=='[' and i==']')):
-                st.pop()
+    for i in range(len(s)):
+        if s[i]=='(' or s[i]=='{' or s[i]=='[':
+            st.append(s[i])
+        elif st and ((st[-1]=='(' and s[i]==')') or (st[-1]=='{' and s[i]=='}') or (st[-1]=='[' and s[i]==']')):
+            st.pop()
         else:
-            return False
+            return 'not balanced'
     if not st:
-        return True
+        return 'balanced'
     else:
-        return False
+        return 'not balanced'
 
-                
-    
-s='[()]{}'
-ans=Balancedparenthesis(s)
-print(ans)
+            
+for i in range(int(input())):
+    s=input()
+    ans=f(s)
+    print(ans)
