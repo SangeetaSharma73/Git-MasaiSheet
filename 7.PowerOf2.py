@@ -18,9 +18,20 @@
 N=4
 i=0
 ans=False
-while i**2<N:
+while i<N:
     if i**2==N:
         ans=True
         break
+    i+=1
 print(ans)
     
+#tc=O(logn)
+def powerOfTwo(Number):
+    if Number == 0:
+        return False
+    while Number != 1:
+        if Number % 2 != 0:
+            return "No"
+        Number = Number // 2
+    return "Yes"
+print(powerOfTwo(10))
