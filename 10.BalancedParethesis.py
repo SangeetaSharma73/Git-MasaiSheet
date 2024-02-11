@@ -36,7 +36,7 @@ def f(s):
         return 'not balanced'
 
             
-for i in range(int(input())):
-    s=input()
+for i in range(1):
+    s='[()]{}'
     ans=f(s)
     print(ans)
