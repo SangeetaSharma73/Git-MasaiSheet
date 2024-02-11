@@ -17,4 +17,5 @@
 # 1 <= N <= 100
 # 1 <= A[i] <= 100
 # 1 <= sum <= 10^5
-def Subset()
+def Subset():
+    pass
