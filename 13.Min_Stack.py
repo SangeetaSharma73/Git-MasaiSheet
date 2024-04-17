@@ -25,6 +25,7 @@
 # Constraints
 # 1 <= N <= 100000
 
+# *
 
 #Using class-
 class MinStack:

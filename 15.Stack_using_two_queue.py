@@ -24,6 +24,9 @@
 #  1 <= Number of operations on the stack <= 100
 #  1 <= Values in the stack <= 100
 
+
+# *
+
 from collections import deque
 
 class StackUsingQueues:

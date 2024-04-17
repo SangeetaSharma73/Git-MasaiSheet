@@ -36,6 +36,9 @@
 # Constraints
 #   Number of operands <= 26
 
+#Using stack 
+#Tc=O(n)
+#Sc=O(n)
 def Infix_to_postfix(s):
     Priority={'+':1,'-':1,'*':2,'/':2,'^':3,'(':4}
     st=[]

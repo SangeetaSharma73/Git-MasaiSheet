@@ -48,7 +48,7 @@ for i in range(len(array)):
             ans='Yes'
             break
 print(ans)
-            
+
             
             
         

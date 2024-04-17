@@ -37,6 +37,7 @@ def GCD_better(a,b,c=1):
 ans,c=GCD_better(12,8)
 print(ans,c)
 
+
 # Better Solution(Euclidean Algorithm):Iterative
 #Time Complexity: O(log min(a, b)) - This is the time complexity of the Euclidean algorithm. It converges rapidly towards the GCD.
 def gcd_better(a, b):

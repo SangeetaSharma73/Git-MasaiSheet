@@ -22,6 +22,7 @@
 #  1 <= Q <= 100
 #  1 <= x <= 100
 
+# *
 class MyQueue:
     def __init__(self):
         self.stack1 = []  # For enqueue operation

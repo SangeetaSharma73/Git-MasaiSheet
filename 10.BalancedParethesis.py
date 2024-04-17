@@ -21,6 +21,10 @@
 
 # Constraints
 # 1 <= N <= 100000
+
+#1.Using Stack
+#TC=O(n)
+#Sc=O(n)
 def f(s):
     st=[]
     for i in range(len(s)):

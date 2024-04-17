@@ -24,6 +24,23 @@ totalsum=sum(A)
 originalSum=sum(set(A))
 print(totalsum-originalSum)
 
+#using dictionary
+# Tc=O(n)
+# Sc=O(n)
+
+d={}
+for i in range(len(A)):
+    if A[i] in d:
+        # d[A[i]].get()
+        d[A[i]]=1
+    else:
+        d[A[i]]+=1
+for key in d:
+    if d[key]==2:
+        print(key)
+        break
+        
+        
 #Approach2-
 #Tc=O(n)
 #Sc=O(1)

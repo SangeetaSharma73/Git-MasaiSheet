@@ -19,3 +19,7 @@
 
 # Constraints
 # 1<= N <= 10^5
+
+#1.Merge Sort 
+
+#2.Quick Sort 

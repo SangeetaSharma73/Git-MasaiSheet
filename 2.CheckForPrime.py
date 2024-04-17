@@ -18,7 +18,7 @@
 
 # Constraints:
 #     1 <= N <= 1000000000
-import math
+# import math
 N=13
 def CheckPrime(N):
     for i in range(2,int(N**0.5)+1):

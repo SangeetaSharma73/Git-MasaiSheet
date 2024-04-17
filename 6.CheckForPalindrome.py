@@ -21,6 +21,9 @@
 # Constraints
 # 1 <= N <= 100000
 
+#slicing 
+#Tc= O(n)
+#Sc=O(1)
 def palindrome(s):
     if s==s[::-1]:
         return True
